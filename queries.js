@@ -64,6 +64,7 @@ var retrieveAllListings = function() {
 };
 
 findLibraryWest();
-//removeCable();
-//updatePhelpsLab();
-//retrieveAllListings();
+removeCable();
+retrieveAllListings();
+updatePhelpsLab();
+
