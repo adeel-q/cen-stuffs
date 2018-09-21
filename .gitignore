@@ -6,3 +6,9 @@ server/config/config.js
 
 # node
 node_modules
+
+# vscode
+.vscode
+
+# package lock
+package-lock.json
