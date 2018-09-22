@@ -31,7 +31,7 @@ exports.create = function(req, res) {
 exports.read = function(req, res) {
   /* send back the listing as json from the request */
   console.log("Read was called. Printing request object");
-  console.log(req);
+  // console.log(req);
   res.json(req.listing);
 };
 
