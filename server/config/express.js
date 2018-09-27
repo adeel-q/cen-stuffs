@@ -5,7 +5,9 @@ var path = require("path"),
   bodyParser = require("body-parser"),
   config = require("./config"),
   listingsRouter = require("../routes/listings.server.routes");
-
+    // For heroku, add cors
+    cors = require('cors');
+    
 module.exports.init = function() {
   //connect to database
   mongoose.connect(config.db.uri);
