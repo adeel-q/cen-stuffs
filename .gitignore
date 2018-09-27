@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # osx
 .DS_Store
 
@@ -13,3 +14,13 @@ node_modules
 # package lock
 package-lock.json
 JSONtoMongo.js
+=======
+# osx
+.DS_Store
+
+# configuration files
+# server/config/config.js
+
+# node
+node_modules
+>>>>>>> 911e946929361aeab5641f5f779404266aee9f85
