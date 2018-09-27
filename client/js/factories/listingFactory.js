@@ -12,7 +12,10 @@ angular.module("listings", []).factory("Listings", function($http) {
       /**TODO
         return result of HTTP delete method
        */
-      return $http.delete("http://localhost:8080/api/listings" + id);
+      var uri = "http://localhost:8080/api/listings/" + id;
+      console.log("http://localhost:8080/api/listings/" + id);
+
+      return $http.delete(uri);
     }
   };
 
